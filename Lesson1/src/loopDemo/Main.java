@@ -17,6 +17,13 @@ public class Main {
 		}
 		System.out.println("While Dongusu bitti");
 
+		// Do While
+		int j = 15;
+		do {
+			System.out.println(j);
+			j+=2;
+		} while (j < 10);
+		System.out.println("Do While Dongusu bitti");
 	}
 
 }
