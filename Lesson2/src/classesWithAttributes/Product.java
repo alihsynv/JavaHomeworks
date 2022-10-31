@@ -2,6 +2,20 @@ package classesWithAttributes;
 
 public class Product {
 
+	public Product(int id, String name, String description, double price, int stockAmount, String color) {
+		System.out.println("Constructor worked");
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.price = price;
+		this.color = color;
+		this.stockAmount = stockAmount;
+	}
+
+	public Product() {
+
+	}
+
 	// attribute | field
 	private int id;
 	private String name;
